@@ -139,14 +139,110 @@ public class patterns {
         // }
 
         // Solid Rhombus
-        for(int i = 1; i <= m; i++){
-            for(int j = 1; j <= m-i; j++){
-                System.out.print(" ");
-            }
-            for(int j = 1; j <= m; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        // for(int i = 1; i <= m; i++){
+        //     for(int j = 1; j <= m-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = 1; j <= m; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Making a number Pyramid
+        // for(int i = 1; i <= m; i++){
+        //     // Space printing
+        //     for(int j = 1; j <= m-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     // Number printing
+        //     for(int j = 1; j <= i; j++){
+        //         System.out.print(i+" ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Making a Palindromic Pattern
+        // for(int i = 1; i <= m; i++){
+        //     // Printing the spaces
+        //     for(int j = 1; j <= m-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = i; j >= 1; j--){
+        //         System.out.print(j);
+        //     }
+        //     for(int j = 2; j <= i; j++){
+        //         System.out.print(j);
+        //     }
+        //     System.out.println();
+        // }
+
+        // Making a Diamond Pattern
+        // for(int i = 1; i <= m; i++){
+        //     for(int j = 1; j <= m-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = 1; j <= 2*i-1; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int i = m; i >= 1; i--){
+        //     for(int j = 1; j <= m-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = 1; j <= 2*i-1; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Making a Hollow Butterfly
+        // for(int i = 1; i <= m; i++){
+        //     for(int j = 1; j <= i; j++){
+        //         if(j == i || j == j *j){
+        //             System.out.print("*");
+        //         }
+        //         else{
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     int space = 2 * (m - i);
+        //     for(int j = 1; j <= space; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = 1; j <= i; j++){
+        //         if(j == i || j == j *j){
+        //             System.out.print("*");
+        //         }
+        //         else{
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+        // for(int i = m; i >= 1; i--){
+        //     for(int j = 1; j <= i; j++){
+        //         if(j == i || j == j *j){
+        //             System.out.print("*");
+        //         }
+        //         else{
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     int space = 2 * (m - i);
+        //     for(int j = 1; j <= space; j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j = 1; j <= i; j++){
+        //         if(j == i || j == j *j){
+        //             System.out.print("*");
+        //         }
+        //         else{
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
     }
 }
